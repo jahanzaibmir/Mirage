@@ -85,7 +85,7 @@ def create_shared_app(test_config=None):
             Product(name="Corsair Vengeance 32GB", description="DDR5 RAM kit", price=159.99, stock=20),
         ]
         db.session.bulk_save_objects(sample)
-        admin = User(username="admin", email="admin@example.com", is_admin=True)
+        admin = User(username="admin", email="admin@gmail.com", is_admin=True)
         admin.set_password("adminpass")
         db.session.add(admin)
         db.session.commit()
