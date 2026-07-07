@@ -1,6 +1,6 @@
 # Mirage Honeypot
 
-Mirage is a lightweight Python honeypot that exposes a simple HTTP endpoint and a TCP listener to capture basic probing activity.
+Mirage is a lightweight Python honeypot that exposes a simple HTTP endpoint and a TCP listener to capture attacker behavious and malicious workings
 
 ## Run
 
