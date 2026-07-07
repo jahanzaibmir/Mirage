@@ -1,5 +1,5 @@
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -16,6 +16,6 @@ class HoneypotLogger:
             handle.write(message + "\n")
 
     def record_event(self, event_type: str, **details: Any) -> None:
-        payload = {"timestamp": datetime.utcnow().isoformat(), "event": event_type, **details}
+        payload = {"timestamp": datetime.now(timezone.utc).isoformat(), "event": event_type, **details}
         self._append_line(self.log_file, f"{event_type} {json.dumps(details, default=str)}")
         self._append_line(self.events_file, json.dumps(payload))

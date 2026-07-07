@@ -1,1 +1,5 @@
-# No external dependencies required for the initial honeypot build.
+flask
+flask_login
+flask_wtf
+flask_sqlalchemy
+wtforms

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h2>Your Cart</h2>
+  {% if items %}
+    <table class="table">
+      <thead><tr><th>Product</th><th>Qty</th><th>Price</th></tr></thead>
+      <tbody>
+        {% for p, qty in items %}
+        <tr>
+          <td>{{ p.name }}</td>
+          <td>{{ qty }}</td>
+          <td>${{ '%.2f'|format(p.price * qty) }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <div class="d-flex justify-content-between align-items-center">
+      <strong>Total: ${{ '%.2f'|format(total) }}</strong>
+      <a class="btn btn-primary" href="/checkout">Checkout</a>
+    </div>
+  {% else %}
+    <p>Your cart is empty.</p>
+  {% endif %}
+{% endblock %}

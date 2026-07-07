@@ -1,0 +1,10 @@
+body { background: #07111f; color: #e8edf7; }
+.navbar-brand { font-weight: 700; }
+.card { border-radius: 10px; }
+.text-primary { color: #6ee7ff !important; }
+.admin-shell { background: linear-gradient(135deg, #07111f, #101d33); min-height: 100vh; }
+.admin-nav { background: rgba(2, 6, 23, 0.95); border-bottom: 1px solid rgba(255,255,255,0.08); }
+.admin-card { background: rgba(8, 15, 29, 0.95); color: #f8fbff; border: 1px solid rgba(255,255,255,0.06); }
+.admin-card .card-header { border-bottom: 1px solid rgba(255,255,255,0.08); }
+.table-dark { --bs-table-bg: #07111f; --bs-table-striped-bg: #0d1729; --bs-table-hover-bg: #13233d; color: #f8fbff; }
+.btn-outline-danger:hover { color: #fff; }

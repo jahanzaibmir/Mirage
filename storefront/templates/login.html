@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h2>Login</h2>
+      <form method="post">
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input class="form-control" name="email" type="email" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Password</label>
+          <input class="form-control" name="password" type="password" required>
+        </div>
+        <button class="btn btn-primary">Login</button>
+      </form>
+    </div>
+  </div>
+{% endblock %}

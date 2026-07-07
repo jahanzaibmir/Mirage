@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h2>Welcome, {{ current_user.username }}</h2>
+  <p class="lead">Account dashboard</p>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card p-3 mb-3">
+        <h5>Orders</h5>
+        <p class="small">No past orders — this is a demo.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 mb-3">
+        <h5>Account</h5>
+        <p class="small">Email: {{ current_user.email }}</p>
+      </div>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mirage Security Operations</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/style.css" rel="stylesheet">
+  </head>
+  <body class="admin-shell">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-5 col-md-7">
+          <div class="card shadow-lg border-0 admin-card">
+            <div class="card-body p-4">
+              <div class="mb-4">
+                <h3 class="fw-bold mb-1">Security Operations Console</h3>
+                <p class="text-muted mb-0">Restricted access. Only authenticated operators may view telemetry.</p>
+              </div>
+              <form method="post">
+                <div class="mb-3">
+                  <label class="form-label">Operator email</label>
+                  <input class="form-control" name="email" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Operator password</label>
+                  <input class="form-control" type="password" name="password" required>
+                </div>
+                <button class="btn btn-outline-light w-100">Enter console</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
