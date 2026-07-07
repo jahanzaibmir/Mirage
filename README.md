@@ -2,6 +2,12 @@
 
 Mirage is a  Python based honeypot exposing HTTP and TCP listeners to lure attackers, capturing their connection attempts, payloads, and behavior for security analysis.
 
+## Install the Requirments
+
+```bash
+pip install requirements.txt
+```
+
 ## Run
 
 ```bash
