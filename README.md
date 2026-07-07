@@ -36,4 +36,4 @@ Storefront notes:
 
 Mirage is under active development and continues to improve day by day.
 
-Developed by **Jahanzaib Ashraf Mir** - Cybersecurity Researcher
+Developed by **Jahanzaib Ashraf Mir** - Cybersecurity Researcher and Expert
