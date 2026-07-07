@@ -7,6 +7,8 @@ Mirage is a  Python based honeypot exposing HTTP and TCP listeners to lure attac
 
 ```bash
 git clone https://github.com/jahanzaibmir/Mirage.git
+
+cd Mirage
 ```
 ## Install the Requirments
 
