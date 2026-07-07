@@ -37,3 +37,10 @@ Storefront notes:
 - mirage/logger.py: event logging
 - mirage/server.py: HTTP and TCP listeners
 - tests/test_honeypot.py: smoke tests
+
+
+## Author
+
+Mirage is under active development and continues to improve day by day.
+
+Developed by **Jahanzaib Ashraf Mir** - Cybersecurity Researcher
