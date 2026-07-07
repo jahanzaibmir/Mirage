@@ -10,7 +10,7 @@ git clone https://github.com/jahanzaibmir/Mirage.git
 
 cd Mirage
 ```
-## Install the Requirments
+## Install the Requirements
 
 ```bash
 pip install requirements.txt
@@ -30,13 +30,6 @@ Storefront notes:
 
 - Public honeypot: http://127.0.0.1:5000
 - Hidden admin console: http://127.0.0.1:5001/hidden-ops/login
-
-## Structure
-
-- mirage/config.py: runtime settings
-- mirage/logger.py: event logging
-- mirage/server.py: HTTP and TCP listeners
-- tests/test_honeypot.py: smoke tests
 
 
 ## Author
