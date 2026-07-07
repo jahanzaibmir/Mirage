@@ -1,6 +1,6 @@
 # Mirage Honeypot
 
-Mirage is a lightweight Python honeypot that exposes a simple HTTP endpoint and a TCP listener to capture attacker behavious and malicious workings
+Mirage is a  Python based honeypot exposing HTTP and TCP listeners to lure attackers, capturing their connection attempts, payloads, and behavior for security analysis.
 
 ## Run
 
@@ -11,7 +11,7 @@ python run.py
 After this change the project will prefer running a prototype storefront web app at http://localhost:5000.
 
 Storefront notes:
-- Admin user/Activity console creds: `admin@example.com` / `adminpass`
+- Admin user/Activity console creds: `admin@gmail.com` / `adminpass`
 
 - Public honeypot: http://127.0.0.1:5000
 - Hidden admin console: http://127.0.0.1:5001/hidden-ops/login
